@@ -1,6 +1,6 @@
 # fdf @ UNIT Factory
 
-![screenshot](/screen.png?raw=true)
+![screenshot](42/fdf/Screen.png?raw=true)
 
 A simple 3D height-map renderer. You can rotate models, color is defined by
 relative height in the map.
