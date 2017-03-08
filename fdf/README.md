@@ -9,8 +9,6 @@ Include Minilibix Library and launch:
 
 Usage
 ---
-Execute program with path map file
+Run make. An executable will compile. Currently only tested on OS X.
 
-    ./fdf map_name.fdf
-
-  
+Run it with ./fdf [map]. A bunch of sample maps are provided in the maps directory. The one in the screenshot above is maps/42.fdf.
