@@ -1,4 +1,4 @@
-# fdf
+# 42-fdf
 Infographie project map relief.
 
 Installation
@@ -9,6 +9,22 @@ Include Minilibix Library and launch:
 
 Usage
 ---
-Run make. An executable will compile. Currently only tested on OS X.
+Execute program with path map file
 
-Run it with ./fdf [map]. A bunch of sample maps are provided in the maps directory. The one in the screenshot above is maps/42.fdf.
+    ./fdf map_name.fdf
+
+Control
+---
+#####Translation#####
+  * Y: Key: UP, DOWN
+  * X: Key: LEFT, RIGHT
+
+#####Rotation#####
+  * X: Keypad: 1, 4 
+  * Y: Keypad: 2, 5
+  * Z: Keypad: 3, 6
+
+#####Zoom#####
+  * IN: Keypad: +
+  * OUT: Keypad: -
+  
