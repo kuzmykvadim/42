@@ -1,5 +1,9 @@
-# 42-fdf
-Infographie project map relief.
+# fdf @ UNIT Factory
+
+![screenshot](/Screen.png?raw=true)
+
+A simple 3D height-map renderer. You can rotate models, color is defined by
+relative height in the map.
 
 Installation
 ---
@@ -7,24 +11,10 @@ Include Minilibix Library and launch:
 
     Make
 
+An executable will compile. Currently only tested on OS X.
+
 Usage
 ---
-Execute program with path map file
-
-    ./fdf map_name.fdf
-
-Control
----
-#####Translation#####
-  * Y: Key: UP, DOWN
-  * X: Key: LEFT, RIGHT
-
-#####Rotation#####
-  * X: Keypad: 1, 4 
-  * Y: Keypad: 2, 5
-  * Z: Keypad: 3, 6
-
-#####Zoom#####
-  * IN: Keypad: +
-  * OUT: Keypad: -
-  
+Run it with ./fdf [map]. A bunch of sample maps are provided in the maps directory. The one in the screenshot above is maps/42.fdf.
+	
+	./fdf map_name.fdf
