@@ -44,7 +44,7 @@ Available fractal : Julia, Mandelbrot, Newton, Tricorn, Burn_Ship
 <td valign="top" align="center">Scroll up/down</td>
 <td valign="top" align="center">Arrows keys</td>
 <td valign="top" align="center">'*' or '/' keys</td>
-<td valign="top" align="center">1, 2, 3, 4 or 5</td>
+<td valign="top" align="center">1, 2, 3, 4</td>
 <td valign="top" align="center">Space</td>
 </tr>
 </table>
