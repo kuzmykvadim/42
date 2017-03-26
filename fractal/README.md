@@ -9,7 +9,7 @@ A fractal is a mathematical set that exhibits a repeating pattern displayed at e
 Available fractals : Julia, Mandelbrot, Newton, Tricorn, Burning_Ship
 
 
-<br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br />
 ## Usage
 	$>  make
 	$>  usage:	./fractal [Mandelbrot | Julia| Tricorn | Burning_Ship | Newton]
