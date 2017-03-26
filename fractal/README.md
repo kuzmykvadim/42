@@ -19,7 +19,7 @@ Available fractal : Julia, Mandelbrot, Newton, Tricorn, Burn_Ship
 <thead>
 <tr>
 <td widht ="30%" height="60px" align="center" cellpadding="0">
-<strong>Stop mouse capture</strong>
+<strong>Change fractal</strong>
 </td>
 <td widht ="14%" align="center" cellpadding="0">
 <strong>Zoom</strong>
@@ -40,7 +40,7 @@ Available fractal : Julia, Mandelbrot, Newton, Tricorn, Burn_Ship
 </thead>
 <tbody>
 <tr>
-<td valign="top" align="center">Left click mouse</td>
+<td valign="top" align="center">Right shift, or B, M, J, N, T</td>
 <td valign="top" align="center">Scroll up/down</td>
 <td valign="top" align="center">Arrows keys</td>
 <td valign="top" align="center">'*' or '/' keys</td>
