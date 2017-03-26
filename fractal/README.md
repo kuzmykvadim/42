@@ -40,7 +40,7 @@ Available fractal : Julia, Mandelbrot, Newton, Tricorn, Burning_Ship
 </thead>
 <tbody>
 <tr>
-<td valign="top" align="center">Right shift or еhe first letter of the fractal name (B, M, J, N, T)</td>
+<td valign="top" align="center">Right shift or the first letter of the fractal name (B, M, J, N, T)</td>
 <td valign="top" align="center">Scroll up/down</td>
 <td valign="top" align="center">Arrows keys</td>
 <td valign="top" align="center">'*' or '/' keys</td>
