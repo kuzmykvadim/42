@@ -49,6 +49,7 @@ Available fractal : Julia, Mandelbrot, Newton, Tricorn, Burning_Ship
 </tr>
 </table>
 </tbody>
+
 # Julia fractal
 ![screenshot](https://github.com/kuzmykvadim/42/blob/master/fractal/Screens/Julia.png?raw=true)
 
