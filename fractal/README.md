@@ -1,6 +1,6 @@
 # Fractal @ UNIT Factory
 
-<img align="right"  src="https://github.com/kuzmykvadim/42/blob/master/fractal/Screens/Mandelbrot.png" width="35%" />
+<img align="right"  src="https://github.com/kuzmykvadim/42/blob/master/fractal/Screens/Mandelbrot.png" width="40%" />
 This is a project of <a href="http://www.unit.ua" target="_blank" >UNIT Factory</a> which calculates and displays fractals.
 
 
