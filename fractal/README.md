@@ -1,6 +1,6 @@
 # Fractal @ UNIT Factory
 
-<img align="right"  src="https://github.com/kuzmykvadim/42/blob/master/fdf/Screen.png" width="45%" />
+<img align="right"  src="https://github.com/kuzmykvadim/42/blob/master/fractal/Screens/Julia.png" width="45%" />
 This is a project of <a href="http://www.unit.ua" target="_blank" >UNIT Factory</a>
 
 Available fractal : Julia, Mandelbrot, Newton, Tricorn, Burning Ship
@@ -10,7 +10,7 @@ Available fractal : Julia, Mandelbrot, Newton, Tricorn, Burning Ship
 ## Usage
 	$>  make
 	$>  usage:	./fractal [Mandelbrot | Julia| Tricorn | Burning_Ship | Newton]
-	$>	or		./fractal[M | J | T | B | N]
+	$>  or		./fractal[M | J | T | B | N]
 ## Controls
 
 <table widht="100%">
