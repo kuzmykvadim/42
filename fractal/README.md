@@ -3,7 +3,7 @@
 <img align="right"  src="https://github.com/kuzmykvadim/42/blob/master/fractal/Screens/Julia.png" width="45%" />
 This is a project of <a href="http://www.unit.ua" target="_blank" >UNIT Factory</a>
 
-Available fractal : Julia, Mandelbrot, Newton, Tricorn, Burn_Ship
+Available fractal : Julia, Mandelbrot, Newton, Tricorn, Burning_Ship
 
 
 <br /><br /><br /><br /><br /><br /><br /><br />
@@ -40,7 +40,7 @@ Available fractal : Julia, Mandelbrot, Newton, Tricorn, Burn_Ship
 </thead>
 <tbody>
 <tr>
-<td valign="top" align="center">Right shift, or B, M, J, N, T</td>
+<td valign="top" align="center">Right shift or еhe first letter of the fractal name (B, M, J, N, T)</td>
 <td valign="top" align="center">Scroll up/down</td>
 <td valign="top" align="center">Arrows keys</td>
 <td valign="top" align="center">'*' or '/' keys</td>
