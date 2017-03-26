@@ -55,3 +55,12 @@ Available fractal : Julia, Mandelbrot, Newton, Tricorn, Burning_Ship
 
 # Newton fractal
 ![screenshot](https://github.com/kuzmykvadim/42/blob/master/fractal/Screens/Newton.png?raw=true)
+
+# Burning Ship fractal
+![screenshot](https://github.com/kuzmykvadim/42/blob/master/fractal/Screens/Burning_ship.png?raw=true)
+
+# Tricorn fractal
+![screenshot](https://github.com/kuzmykvadim/42/blob/master/fractal/Screens/Tricorn.png?raw=true)
+
+# Mandelbrot fractal
+![screenshot](https://github.com/kuzmykvadim/42/blob/master/fractal/Screens/Mandelbrot.png?raw=true)
