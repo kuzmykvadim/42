@@ -1,7 +1,7 @@
 # Fractal @ UNIT Factory
 
 <img align="right"  src="https://github.com/kuzmykvadim/42/blob/master/fractal/Screens/Mandelbrot.png" width="35%" />
-This is a project of <a href="http://www.unit.ua" target="_blank" >UNIT Factory</a> 
+This is a project of <a href="http://www.unit.ua" target="_blank" >UNIT Factory</a> which calculates and displays fractals.
 
 A fractal is a mathematical set that exhibits a repeating pattern displayed at every scale. It is also known as expanding symmetry or evolving symmetry. If the replication is exactly the same at every scale, it is called a self-similar pattern. This is illustrated in small magnifications of the Mandelbrot set and others sets. Fractals also include the idea of a detailed pattern that repeats itself
 
