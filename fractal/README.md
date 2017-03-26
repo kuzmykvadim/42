@@ -10,7 +10,7 @@ Available fractal : Julia, Mandelbrot, Newton, Tricorn, Burning_Ship
 ## Usage
 	$>  make
 	$>  usage:	./fractal [Mandelbrot | Julia| Tricorn | Burning_Ship | Newton]
-	$>  or		./fractal[M | J | T | B | N]
+	$>  or		./fractal [M | J | T | B | N]
 	
 	$>  Click ENTER to open menu
 ## Controls
@@ -49,3 +49,8 @@ Available fractal : Julia, Mandelbrot, Newton, Tricorn, Burning_Ship
 </tr>
 </table>
 </tbody>
+# Julia fractal
+![screenshot](https://github.com/kuzmykvadim/42/blob/master/fractal/Screens/Julia.png?raw=true)
+
+# Newton fractal
+![screenshot](https://github.com/kuzmykvadim/42/blob/master/fractal/Screens/Newton.png?raw=true)
