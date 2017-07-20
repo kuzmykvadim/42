@@ -29,14 +29,6 @@ make
 # Usage
 	./rt ./maps/__map__.json
 
-## Your map has to extension .json format (JavaScript Object Notation)
-A complete map will have the following Elements specified by the user:
-```
-General options
-Light
-Objects
-
-```
 # Command List
 |                Key               |                Function                 |
 | -------------------------------- |:---------------------------------------:|
@@ -46,3 +38,12 @@ Objects
 | <kbd>UP</kbd> <kbd>DOWN</kbd>    | move camera  up/down	             |
 | <kbd>LEFT</kbd> <kbd>RIGHT</kbd> | move camera left/right   		     |
 | <kbd>ENTER</kbd>                 | switch off/on lights		     |
+
+## Your map has to extension .json format (JavaScript Object Notation)
+A complete map will have the following Elements specified by the user:
+```
+General options
+Light
+Objects
+
+```
