@@ -43,6 +43,6 @@ Objects
 | <kbd>+</kbd> <kbd>-</kbd>        | move camera up/down on y axis 	     |
 | <kbd>Y</kbd> <kbd>H</kbd>        | look up/down          		     |
 | <kbd>W</kbd> <kbd>S</kbd>        | look left/right      		     |
-| <kbd>UP</kbd> <kbd>DOWN</kbd>    | rotate camera or objects on x axis      |
-| <kbd>LEFT</kbd> <kbd>RIGHT</kbd> | rotate camera or objects on y axis      |
+| <kbd>UP</kbd> <kbd>DOWN</kbd>    | move camera  up/down	             |
+| <kbd>LEFT</kbd> <kbd>RIGHT</kbd> | move camera left/right   		     |
 | <kbd>ENTER</kbd>                 | switch off/on lights		     |
