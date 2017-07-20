@@ -36,9 +36,11 @@ General options
 Light
 Objects
 
+```
+# Command List
 |                Key               |                Function                 |
 | -------------------------------- |:---------------------------------------:|
-| <kbd>-</kbd> <kbd>+</kbd>        | move camera up/down         |
+| <kbd>A</kbd> <kbd>D</kbd>        | move camera or objects on x axis        |
 | <kbd>SPACE</kbd> <kbd>CTRL</kbd> | move camera or objects on y axis        |
 | <kbd>W</kbd> <kbd>S</kbd>        | move camera or objects on z axis        |
 | <kbd>UP</kbd> <kbd>DOWN</kbd>    | rotate camera or objects on x axis      |
