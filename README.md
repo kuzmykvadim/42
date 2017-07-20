@@ -18,7 +18,7 @@ All input parameters are set in a strictly formatted JSON format. And on this do
   2. How to add switch on/off something raytrace effects
   3. How set multi spots of lights
 
-## :cd: Installation
+# :cd: Installation
 The project only work on Mac OS X.
 
 It uses the MinilibX, a micro-library that provides an easy way to create a window and push an image on it.
