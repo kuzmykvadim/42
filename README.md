@@ -40,10 +40,10 @@ Objects
 # Command List
 |                Key               |                Function                 |
 | -------------------------------- |:---------------------------------------:|
-| <kbd>A</kbd> <kbd>D</kbd>        | move camera or objects on x axis        |
+| <kbd>+</kbd> <kbd>-</kbd>        | move camera up/down on y axis 	     |
 | <kbd>SPACE</kbd> <kbd>CTRL</kbd> | move camera or objects on y axis        |
 | <kbd>W</kbd> <kbd>S</kbd>        | move camera or objects on z axis        |
 | <kbd>UP</kbd> <kbd>DOWN</kbd>    | rotate camera or objects on x axis      |
 | <kbd>LEFT</kbd> <kbd>RIGHT</kbd> | rotate camera or objects on y axis      |
 | <kbd>Q</kbd> <kbd>E</kbd>        | rotate camera or objects on z axis      |
-| <kbd>+</kbd> <kbd>-</kbd>        | increase or decrease objects attributes |
+| <kbd>ENTER</kbd>       | increase or decrease objects attributes |
