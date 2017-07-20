@@ -41,9 +41,8 @@ Objects
 |                Key               |                Function                 |
 | -------------------------------- |:---------------------------------------:|
 | <kbd>+</kbd> <kbd>-</kbd>        | move camera up/down on y axis 	     |
-| <kbd>SPACE</kbd> <kbd>CTRL</kbd> | move camera or objects on y axis        |
-| <kbd>W</kbd> <kbd>S</kbd>        | move camera or objects on z axis        |
+| <kbd>Y</kbd> <kbd>H</kbd>        | look up/down          		     |
+| <kbd>W</kbd> <kbd>S</kbd>        | look left/right      		     |
 | <kbd>UP</kbd> <kbd>DOWN</kbd>    | rotate camera or objects on x axis      |
 | <kbd>LEFT</kbd> <kbd>RIGHT</kbd> | rotate camera or objects on y axis      |
-| <kbd>Q</kbd> <kbd>E</kbd>        | rotate camera or objects on z axis      |
-| <kbd>ENTER</kbd>       | increase or decrease objects attributes |
+| <kbd>ENTER</kbd>                 | switch off/on lights		     |
