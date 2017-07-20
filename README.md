@@ -12,3 +12,26 @@ We're a team of four who've realized this project by combing a series of modules
 - Phong shading
 - .............
 - .......
+
+All input parameters are set in a strictly formatted JSON format. And on this document will explain:
+	1. How to write scenes on JSON.
+  2. How to add switch on/off something raytrace effects
+  3. How set multi spots of lights
+
+## :cd: Installation
+The project only work on Mac OS X.
+
+It uses the MinilibX, a micro-library that provides an easy way to create a window and push an image on it.
+```
+make
+```
+
+# Usage
+	./rt ./maps/__map__.json
+
+## Your map has to extension .json format (JavaScript Object Notation)
+A complete map will have the following Elements specified by the user:
+```
+General options
+Light
+Objects
