@@ -10,7 +10,7 @@ In computer graphics, ray tracing is a technique for generating an image by trac
 
 |                Key               |                Function                 |
 | -------------------------------- |:---------------------------------------:|
-| <kbd>A</kbd> <kbd>D</kbd>        | move camera or objects on x axis        |
+| <kbd>+</kbd> <kbd>D</kbd>        | move camera or objects on x axis        |
 | <kbd>SPACE</kbd> <kbd>CTRL</kbd> | move camera or objects on y axis        |
 | <kbd>W</kbd> <kbd>S</kbd>        | move camera or objects on z axis        |
 | <kbd>UP</kbd> <kbd>DOWN</kbd>    | rotate camera or objects on x axis      |
