@@ -231,3 +231,4 @@ Light and objects are stored in the JSON array and should be highlighted with th
 ## :muscle: Authors
 * [**Anton Sviridov**](https://github.com/asvirido/)
 * [**Vadim Kuzmyk**](https://github.com/kuzmykvadim/)
+* [**Alisa Soroka**](https://github.com/AliceSor/)
