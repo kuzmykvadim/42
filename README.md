@@ -229,6 +229,40 @@ Light and objects are stored in the JSON array and should be highlighted with th
         ]
 }
 ```
+# Available screen resolutions
+```
+320 х 240
+352 х 240
+352 х 288
+400 х 24
+480 х 576
+640 х 240
+320 х 480
+640 х 360
+640 х 480
+800 х 480
+800 х 600
+848 х 480
+960 х 540
+1024 х 600
+1024 х 768
+1152 х 864
+1200 х 600
+1280 х 720
+1280 х 768
+1280 х 1024
+1440 х 900
+1400 х 1050
+1500 х 1024
+1536 х 960
+1536 х 1024
+1600 х 900
+1600 х 1024
+1600 х 1200
+1680 х 1050
+1920 х 1080
+1920 х 1200
+```
 
 ## :muscle: Authors
 * [**Anton Sviridov**](https://github.com/asvirido/)
