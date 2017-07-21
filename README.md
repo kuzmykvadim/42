@@ -1,4 +1,4 @@
-<span style="color: yellow "># RT @ UNIT Factory</span>
+# RT @ UNIT Factory
 
 <img align="right"  src="https://github.com/kuzmykvadim/42/blob/master/fractal/Screens/Mandelbrot.png" width="40%" />
 
