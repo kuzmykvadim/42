@@ -38,6 +38,8 @@ make
 | <kbd>UP</kbd> <kbd>DOWN</kbd>    | move camera  up/down	             |
 | <kbd>LEFT</kbd> <kbd>RIGHT</kbd> | move camera left/right   		     |
 | <kbd>ENTER</kbd>                 | switch off/on lights		     |
+| <kbd>F-19</kbd>                  | save image on PPM format to current dir |	     |
+
 
 ## Your map has to extension .json format (JavaScript Object Notation)
 A complete map will have the following Elements specified by the user:
