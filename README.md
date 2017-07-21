@@ -13,33 +13,33 @@ We're a team of four who've realized this project by combing a series of modules
 + Blinn-Phong shading
 + Lambert shading
 + Cell shading
-- Super anti-aliasing
-- Fast anti aliasin
-- Cartoon effect
-- Motion blur
-- Visualization of normals
-- Visualization of dots
-- Draft mode
-- Multithreading
-- Reflection
-- Refraction
-- Outline
-- JSON format map
-<br></br>
++ Super anti-aliasing
++ Fast anti aliasin
++ Cartoon effect
++ Motion blur
++ Visualization of normals
++ Visualization of dots
++ Draft mode
++ Multithreading
++ Reflection
++ Refraction
++ Outline
++ JSON format map
+
 Filters:
-- Sepia
-- Black-White
-- Darkroom
-<br></br>
++ Sepia
++ Black-White
++ Darkroom
+
 Primitives:
-- Sphere
-- Half-sphere
-- Disk
-- Plane
-- Cone
-- Cylinder
-- CD Disc
-- Ellipsoid
++ Sphere
++ Half-sphere
++ Disk
++ Plane
++ Cone
++ Cylinder
++ CD Disc
++ Ellipsoid
 ```
 	
 
