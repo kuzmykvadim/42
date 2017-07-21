@@ -90,8 +90,8 @@ Light and objects are stored in the JSON array and should be highlighted with th
     "general":              /*Basic parameters are set in this structure*/
           {
             "screen_size":{
-              "width": 700,
-              "height": 800
+-             "width": 700,     / See available screen resolutions \
+-             "height": 800     \   				   /
             },
             "name_win": "Raytrace by RT_MAFIA",
             "light_off_on": false,
