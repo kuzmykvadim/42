@@ -33,12 +33,12 @@ Filters:
 
 Primitives:
 + Sphere
-+ Half-sphere
++ Half_sphere
 + Disk
 + Plane
 + Cone
 + Cylinder
-+ CD Disc
++ Cd_Disc
 + Ellipsoid
 ```
 	
@@ -95,27 +95,27 @@ Light and objects are stored in the JSON array and should be highlighted with th
             },
             "name_win": "Raytrace by RT_MAFIA",
             "light_off_on": false,
-+            "lambert_light":  true,   /*************\
--           "cel_shaded":  false,     | Only one      |
--            "blinn_fong":  false,    | parameter     |
--           "view_normal":  false,    | can be true   |
--           "view_point":  false,      \*************/
-            "ssaa":  true,
++           "lambert_light":  true,   /*************\
+-           "cel_shaded":  false,    | Only one      |
+-           "blinn_fong":  false,    | parameter     |
+-           "view_normal":  false,   | can be true   |
+-           "view_point":  false,     \*************/
++           "ssaa":  true,           / only one     \
+-	    "fxaa":  true,           \ can be true  /
             "size_ssaa": 8,
 	    "shadow":  true,
-            "fxaa":  true,
-+            "filters":  true,       	/***************\
--            "darkroom":  true,	       | only one filter |
++           "filters":  true,       	/***************\
+-           "darkroom":  true,	       | only one filter |
 +           "black_and_white":  true,  | can be true     |
 -           "sepia":  true,  	        \***************/
             "motion_blur":  true,
-            "size_blur": 45,
++           "size_blur": 45,         /from 1 to 49/   
             "fov_on":  true,
-			"speed": 9000,
+	    "speed": 9000,           /from 1 to 999/
             "depth_rec": 222,
             "fieldofview": 111,
-            "draft_x":  2,
-            "draft_y":  2,
+            "draft_x":  2,           /from 1 to 5/   /if  ssaa == true or fxaa == true or motion blur == true  \
+            "draft_y":  2,           /from 1 to 5/   \draft_x and draft_y must be 1                            /
             "background_color": {
               "r": 255,
               "g": 55,
@@ -127,7 +127,7 @@ Light and objects are stored in the JSON array and should be highlighted with th
           },
     "light": "Lights",     
       "lights"
-      [           /*Lights parameters are set in this array*/
++     [           /*Lights parameters are set in this array*/
         {
             "position": {
               "x": 1,
@@ -172,17 +172,17 @@ Light and objects are stored in the JSON array and should be highlighted with th
           }
       ],
     "name": "Objects",
-        "objects":       /*Objects parameters are set in this array*/
++       "objects":       /*Objects parameters are set in this array*/
         [
           {
             "type":       "Half_sphere",
-            "size":      111 ,
++           "size":      111 ,       /from 0 to 999999, but CONE size must be 1-360/
             "height":   190,
             "weight":   170,
             "reflection": true,
             "refraction": false,
             "param_refract": 77,
-            "shines": 88,
++           "shines": 88,            /from 1 to 600/
             "position": {
               "x": 11,
               "y": 12,
@@ -191,7 +191,7 @@ Light and objects are stored in the JSON array and should be highlighted with th
               "x": 190,
               "y": 160,
               "z": 190},
-            "direction": {
+-           "direction": {         /direction {0, 0, 0} is not valid/
               "x": -19,
               "y": -18,
               "z": -17},
