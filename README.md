@@ -42,9 +42,9 @@ Primitives:
 	
 
 All input parameters are set in a strictly formatted JSON format. And on this document will explain:
-	1. How to write scenes on JSON.
-  2. How to add switch on/off something raytrace effects
-  3. How set multi spots of lights
+1. How to write scenes on JSON.
+2. How to add switch on/off something raytrace effects
+3. How set multi spots of lights
 
 # :cd: Installation
 The project only work on Mac OS X.
