@@ -1,4 +1,4 @@
-# RT @ UNIT Factory
+<span style="color: yellow "># RT @ UNIT Factory</span>
 
 <img align="right"  src="https://github.com/kuzmykvadim/42/blob/master/fractal/Screens/Mandelbrot.png" width="40%" />
 
@@ -79,7 +79,7 @@ Objects
 ```
 Attention! The map is strictly structured and must correspond to the valid JSON format and parameters should be passed as in the example.
 
-Light and objects are stored in the JSON array and should be highlighted with the following symbols []
+Light and objects are stored in the JSON array and should be highlighted with the following symbols [ ]
 
 ```
 #Map Examle:
