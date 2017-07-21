@@ -8,10 +8,36 @@ At 42, we follow a strict norm in order to teach us to follow style guides. This
 
 In computer graphics, ray tracing is a technique for generating an image by tracing the path of light through pixels in an image plane and simulating the effects of its encounters with virtual objects. The technique is capable of producing a very high degree of visual realism, usually higher than that of typical scanline rendering methods, but at a greater computational cost. This makes ray tracing best suited for applications where the image can be rendered slowly ahead of time, such as in still images and film and television visual effects, and more poorly suited for real-time applications like video games where speed is critical. Ray tracing is capable of simulating a wide variety of optical effects, such as reflection and refraction, scattering, and dispersion phenomena (such as chromatic aberration).
 
-We're a team of four who've realized this project by combing a series of modules and features to make a pretty fun ray tracer. This includes :
-- Phong shading
-- .............
-- .......
+We're a team of four who've realized this project by combing a series of modules and features to make a pretty fun ray tracer. This includes next features:
+- Blinn-Phong shading
+- Lambert shading
+- Cell shading
+- Super anti-aliasing
+- Fast anti aliasin
+- Cartoon effect
+- Motion blur
+- Visualization of normals
+- Visualization of dots
+- Draft mode
+- Multithreading
+- Reflection
+- Refraction
+- Outline
+- JSON format map
+	Filters:
+- Sepia
+- Black-White
+- Darkroom
+	Primitives:
+- Sphere
+- Half-sphere
+- Disk
+- Plane
+- Cone
+- Cylinder
+- CD Disc
+- Ellipsoid
+	
 
 All input parameters are set in a strictly formatted JSON format. And on this document will explain:
 	1. How to write scenes on JSON.
@@ -35,6 +61,7 @@ make
 | <kbd>+</kbd> <kbd>-</kbd>        | move camera up/down on y axis 	     |
 | <kbd>Y</kbd> <kbd>H</kbd>        | look up/down          		     |
 | <kbd>W</kbd> <kbd>S</kbd>        | look left/right      		     |
+| <kbd>A</kbd> <kbd>D</kbd>        | look around    		     |
 | <kbd>UP</kbd> <kbd>DOWN</kbd>    | move camera  up/down	             |
 | <kbd>LEFT</kbd> <kbd>RIGHT</kbd> | move camera left/right   		     |
 | <kbd>ENTER</kbd>                 | switch off/on lights		     |
