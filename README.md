@@ -76,7 +76,6 @@ A complete map will have the following Elements specified by the user:
 General options
 Light
 Objects
-
 ```
 Attention! The map is strictly structured and must correspond to the valid JSON format and parameters should be passed as in the example.
 
@@ -85,8 +84,8 @@ Light and objects are stored in the JSON array and should be highlighted with th
 ```
 #Map Examle:
 {
-    "parameters": "General",
-    "general":
+    "parameters": "General", 
+    "general":              /*Basic parameters are set in this structure*/
           {
             "screen_size":{
               "width": 700,
@@ -124,9 +123,9 @@ Light and objects are stored in the JSON array and should be highlighted with th
               "y": 20,
               "z": 40}
           },
-    "light": "Lights",
-      "lights":
-      [
+    "light": "Lights",     
+      "lights"
+      [           /*Lights parameters are set in this array*/
         {
             "position": {
               "x": 1,
@@ -171,7 +170,7 @@ Light and objects are stored in the JSON array and should be highlighted with th
           }
       ],
     "name": "Objects",
-        "objects":
+        "objects":       /*Objects parameters are set in this array*/
         [
           {
             "type":       "Half_sphere",
