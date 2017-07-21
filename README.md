@@ -83,7 +83,7 @@ Attention! The map is strictly structured and must correspond to the valid JSON 
 
 Light and objects are stored in the JSON array and should be highlighted with the following symbols [ ]
 
-```
+```diff
 #Map Examle:
 {
     "parameters": "General", 
