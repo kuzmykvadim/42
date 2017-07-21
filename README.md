@@ -95,19 +95,19 @@ Light and objects are stored in the JSON array and should be highlighted with th
             },
             "name_win": "Raytrace by RT_MAFIA",
             "light_off_on": false,
-+            "lambert_light":  true,   /************\
--           "cel_shaded":  false,     | Only one     |
--            "blinn_fong":  false,    | parameter    |
--           "view_normal":  false,    | can be true  |
--           "view_point":  false,     \*************/
++            "lambert_light":  true,   /*************\
+-           "cel_shaded":  false,     | Only one      |
+-            "blinn_fong":  false,    | parameter     |
+-           "view_normal":  false,    | can be true   |
+-           "view_point":  false,      \*************/
             "ssaa":  true,
             "size_ssaa": 8,
 	    "shadow":  true,
             "fxaa":  true,
-            "filters":  true,
-            "darkroom":  true,
-            "black_and_white":  true,
-            "sepia":  true,
++            "filters":  true,       	/***************\
+-            "darkroom":  true,	       | only one filter |
++           "black_and_white":  true,  | can be true     |
+-           "sepia":  true,  	        \***************/
             "motion_blur":  true,
             "size_blur": 45,
             "fov_on":  true,
