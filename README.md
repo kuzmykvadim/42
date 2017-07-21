@@ -10,7 +10,10 @@ In computer graphics, ray tracing is a technique for generating an image by trac
 
 ```diff
 + this text is highlighted in green
+
 - this text is highlighted in red
+
+- this text is highlighted in yellow
 ```
 
 We're a team of four who've realized this project by combing a series of modules and features to make a pretty fun ray tracer. This includes next features:
