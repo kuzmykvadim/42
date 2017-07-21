@@ -24,10 +24,12 @@ We're a team of four who've realized this project by combing a series of modules
 - Refraction
 - Outline
 - JSON format map
-\nFilters:
+<br>
+Filters:
 - Sepia
 - Black-White
 - Darkroom
+<br>
 Primitives:
 - Sphere
 - Half-sphere
