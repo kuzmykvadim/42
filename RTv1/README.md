@@ -34,16 +34,8 @@ make
 | <kbd>F-19</kbd>                  | save image on PPM format to current dir |	     |
 
 
-## Your map has to extension .json format (JavaScript Object Notation)
-A complete map will have the following Elements specified by the user:
-```
-General options
-Light
-Objects
-```
-Attention! The map is strictly structured and must correspond to the valid JSON format and parameters should be passed as in the example.
+# Map example
 
-Light and objects are stored in the JSON array and should be highlighted with the following symbols [ ]
 
 ```diff
 LIGHT
