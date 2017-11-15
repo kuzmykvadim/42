@@ -59,7 +59,7 @@ make
 ```
 
 # Usage
-	./rt ./maps/__map__.json
+	./RTv1 maps/scene2
 
 # Command List
 |                Key               |                Function                 |
