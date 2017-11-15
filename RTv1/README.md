@@ -3,6 +3,7 @@
 <img align="right"  src="https://github.com/kuzmykvadim/42/blob/master/RTv1/img/Screen Shot 2017-11-15 at 9.22.02 PM.png"  
 width="30%" height="500px" />
 
+My first Ray Tracer.
 RT (Ray tracer) is a mile-stone project in the 3D graphics curriculum of <a href="http://www.unit.ua" target="_blank" >UNIT Factory</a> [(42 School)](https://en.wikipedia.org/wiki/42_(school)).
 
 At 42, we follow a strict norm in order to teach us to follow style guides. This norm also prevents us from using many built-in functions. In this project, we are limited to using a barebones graphic library called minilibx. This library limits the functionality to creating windows, handling input hooks, and coloring specific pixels.
@@ -230,42 +231,3 @@ Light and objects are stored in the JSON array and should be highlighted with th
         ]
 }
 ```
-# Available screen resolutions
-```
-320 х 240
-352 х 240
-352 х 288
-400 х 24
-480 х 576
-640 х 240
-320 х 480
-640 х 360
-640 х 480
-800 х 480
-800 х 600
-848 х 480
-960 х 540
-1024 х 600
-1024 х 768
-1152 х 864
-1200 х 600
-1280 х 720
-1280 х 768
-1280 х 1024
-1440 х 900
-1400 х 1050
-1500 х 1024
-1536 х 960
-1536 х 1024
-1600 х 900
-1600 х 1024
-1600 х 1200
-1680 х 1050
-1920 х 1080
-1920 х 1200
-```
-
-## :muscle: Authors
-* [**Anton Sviridov**](https://github.com/asvirido/)
-* [**Vadim Kuzmyk**](https://github.com/kuzmykvadim/)
-* [**Alisa Soroka**](https://github.com/AliceSor/)
