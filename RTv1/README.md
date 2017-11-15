@@ -30,8 +30,8 @@ make
 | <kbd>A</kbd> <kbd>D</kbd>        | look around    		     |
 | <kbd>UP</kbd> <kbd>DOWN</kbd>    | move camera  up/down	             |
 | <kbd>LEFT</kbd> <kbd>RIGHT</kbd> | move camera left/right   		     |
-| <kbd>ENTER</kbd>                 | switch off/on lights		     |
-| <kbd>F-19</kbd>                  | save image on PPM format to current dir |	     |
+| 	     |
+|  |	     |
 
 
 # Map example
