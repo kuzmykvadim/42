@@ -79,7 +79,7 @@ rot: <0, 0, 0>
 norm: {0, 0, -1}
 --------------------
 ```
-<div style= "background-color: red">
+<div>
 <img align="right"  src="https://github.com/kuzmykvadim/42/blob/master/RTv1/img/Screen Shot 2017-11-15 at 9.18.12 PM.png"  
 width="47%" height="500px" />
 <img align="left"  src="https://github.com/kuzmykvadim/42/blob/master/RTv1/img/Screen Shot 2017-11-15 at 9.18.40 PM.png"  
