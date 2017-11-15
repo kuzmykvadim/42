@@ -1,6 +1,7 @@
 # RT @ UNIT Factory
 
-<src="https://github.com/kuzmykvadim/42/tree/master/Wolf3d/img/Screen Shot 2017-11-15 at 9.48.57 PM.png"  />
+<img align="right"  src="https://github.com/kuzmykvadim/42/blob/master/Wolf3d/img/Screen Shot 2017-11-15 at 9.49.16 PM.png"  
+width="500px" height="500px" />
 
 My first Ray Tracer.
 RT (Ray tracer) is a mini-project is the first step to create a Raytracing program in the 3D graphics curriculum of <a href="http://www.unit.ua" target="_blank" >UNIT Factory</a> [(42 School)](https://en.wikipedia.org/wiki/42_(school)).
