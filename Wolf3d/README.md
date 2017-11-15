@@ -1,6 +1,6 @@
 # RT @ UNIT Factory
 
-<img align="right"  src="https://github.com/kuzmykvadim/42/blob/master/Wolf3d/Screen Shot 2017-11-15 at 9.51.45 PM.png"  
+<img align="right"  src="https://github.com/kuzmykvadim/42/tree/master/Wolf3d/img/Screen Shot 2017-11-15 at 9.48.57 PM.png"  
 width="30%" height="500px" />
 
 My first Ray Tracer.
