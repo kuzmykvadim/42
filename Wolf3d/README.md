@@ -1,14 +1,14 @@
-# RT @ UNIT Factory
+# Wold3d @ UNIT Factory
 
 <img align="right"  src="https://github.com/kuzmykvadim/42/blob/master/Wolf3d/img/Screen Shot 2017-11-15 at 9.51.45 PM.png"  
 width="500px" height="500px" />
 
-My first Ray Tracer.
-RT (Ray tracer) is a mini-project is the first step to create a Raytracing program in the 3D graphics curriculum of <a href="http://www.unit.ua" target="_blank" >UNIT Factory</a> [(42 School)](https://en.wikipedia.org/wiki/42_(school)).
+
+Wolf3D is a project is the first step to create a Raycasting program in the 3D graphics curriculum of <a href="http://www.unit.ua" target="_blank" >UNIT Factory</a> [(42 School)](https://en.wikipedia.org/wiki/42_(school)).
 
 At 42, we follow a strict norm in order to teach us to follow style guides. This norm also prevents us from using many built-in functions. In this project, we are limited to using a barebones graphic library called minilibx. This library limits the functionality to creating windows, handling input hooks, and coloring specific pixels.
 
-In computer graphics, ray tracing is a technique for generating an image by tracing the path of light through pixels in an image plane and simulating the effects of its encounters with virtual objects. The technique is capable of producing a very high degree of visual realism, usually higher than that of typical scanline rendering methods, but at a greater computational cost. This makes ray tracing best suited for applications where the image can be rendered slowly ahead of time, such as in still images and film and television visual effects, and more poorly suited for real-time applications like video games where speed is critical. Ray tracing is capable of simulating a wide variety of optical effects, such as reflection and refraction, scattering, and dispersion phenomena (such as chromatic aberration).
+Ray casting is the most basic of many computer graphics rendering algorithms that use the geometric algorithm of ray tracing. Ray tracing-based rendering algorithms operate in image order to render three-dimensional scenes to two-dimensional images. Geometric rays are traced from the eye of the observer to sample the light (radiance) travelling toward the observer from the ray direction. The speed and simplicity of ray casting comes from computing the color of the light without recursively tracing additional rays that sample the radiance incident on the point that the ray hit. This eliminates the possibility of accurately rendering reflections, refractions, or the natural falloff of shadows; however all of these elements can be faked to a degree, by creative use of texture maps or other methods. The high speed of calculation made ray casting a handy rendering method in early real-time 3D video games.
 
 # :cd: Installation
 The project only work on Mac OS X.
@@ -19,19 +19,14 @@ make
 ```
 
 # Usage
-	./RTv1 maps/scene2
+	./wolf3d map
 
 # Command List
 |                Key               |                Function                 |
 | -------------------------------- |:---------------------------------------:|
-| <kbd>+</kbd> <kbd>-</kbd>        | move camera up/down on y axis 	     |
-| <kbd>Y</kbd> <kbd>H</kbd>        | look up/down          		     |
 | <kbd>W</kbd> <kbd>S</kbd>        | look left/right      		     |
-| <kbd>A</kbd> <kbd>D</kbd>        | look around    		     |
-| <kbd>UP</kbd> <kbd>DOWN</kbd>    | move camera  up/down	             |
+| <kbd>A</kbd> <kbd>D</kbd>        | look around    		     	     |
 | <kbd>LEFT</kbd> <kbd>RIGHT</kbd> | move camera left/right   		     |
-| 	     |
-|  |	     |
 
 
 # Map example
