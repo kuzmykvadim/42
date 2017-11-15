@@ -46,148 +46,44 @@ Attention! The map is strictly structured and must correspond to the valid JSON 
 Light and objects are stored in the JSON array and should be highlighted with the following symbols [ ]
 
 ```diff
-#Map Examle:
-{
-    "parameters": "General", 
-    "general":              /*Basic parameters are set in this structure*/
-          {
-            "screen_size":{
--             "width": 700,     / See available screen resolutions \
--             "height": 800     \   				   /
-            },
-            "name_win": "Raytrace by RT_MAFIA",
-            "light_off_on": false,
-+           "lambert_light":  true,   /*************\
--           "cel_shaded":  false,    | Only one      |
--           "blinn_fong":  false,    | parameter     |
--           "view_normal":  false,   | can be true   |
--           "view_point":  false,     \*************/
-+           "ssaa":  true,           / only one     \
--	    "fxaa":  true,           \ can be true  /
-            "size_ssaa": 8,
-	    "shadow":  true,
-+           "filters":  true,       	/***************\
--           "darkroom":  true,	       | only one filter |
-+           "black_and_white":  true,  | can be true     |
--           "sepia":  true,  	        \***************/
-            "motion_blur":  true,
-+           "size_blur": 45,         /from 1 to 49/   
-            "fov_on":  true,
-	    "speed": 9000,           /from 1 to 999/
-            "depth_rec": 222,
-            "fieldofview": 111,
-            "draft_x":  2,           /from 1 to 5/   /if  ssaa == true or fxaa == true or motion blur == true  \
-            "draft_y":  2,           /from 1 to 5/   \draft_x and draft_y must be 1                            /
-            "background_color": {
-              "r": 255,
-              "g": 55,
-              "b": 99},
-            "camera_position": {
-              "x": 10,
-              "y": 20,
-              "z": 40}
-          },
-    "light": "Lights",     
-      "lights"
-+     [           /*Lights parameters are set in this array*/
-        {
-            "position": {
-              "x": 1,
-              "y": 2,
-              "z": 3},
-            "direction": {
-              "x": -1,
-              "y": -2,
-              "z": -3},
-            "color": {
-              "r": 255,
-              "g": 123,
-              "b": 100}
-          },
-          {
-            "position": {
-              "x": -11,
-              "y": -12,
-              "z": -13},
-            "direction": {
-              "x": -12,
-              "y": -11,
-              "z": -112},
-            "color": {
-              "r": 25,
-              "g": 123,
-              "b": 70}
-          },
-          {
-            "position": {
-              "x": -121,
-              "y": -121,
-              "z": -213},
-            "direction": {
-              "x": -129,
-              "y": -128,
-              "z": -127},
-            "color": {
-              "r": 25,
-              "g": 222,
-              "b": 110}
-          }
-      ],
-    "name": "Objects",
-+       "objects":       /*Objects parameters are set in this array*/
-        [
-          {
-            "type":       "Half_sphere",
-+           "size":      111 ,       /from 0 to 999999, but CONE size must be 1-360/
-            "height":   190,
-            "weight":   170,
-            "reflection": true,
-            "refraction": false,
-            "param_refract": 77,
-+           "shines": 88,            /from 1 to 600/
-            "position": {
-              "x": 11,
-              "y": 12,
-              "z": 13},
-            "rotation": {
-              "x": 190,
-              "y": 160,
-              "z": 190},
--           "direction": {         /direction {0, 0, 0} is not valid/
-              "x": -19,
-              "y": -18,
-              "z": -17},
-            "color": {
-              "r": 255,
-              "g": 123,
-              "b": 100}
-          },
-          {
-            "type":       "Cone",
-            "size":      24 ,
-            "height":   280,
-            "weight":   270,
-            "reflection": true,
-            "refraction": false,
-            "param_refract": 77,
-            "shines": 88,
-            "position": {
-              "x": -21,
-              "y": -21,
-              "z": -213},
-            "rotation": {
-              "x": 290,
-              "y": 260,
-              "z": 290},
-            "direction": {
-              "x": -29,
-              "y": -28,
-              "z": -27},
-            "color": {
-              "r": 25,
-              "g": 123,
-              "b": 70}
-          }
-        ]
-}
+LIGHT
+light pos: |10, 10, -60|
+----------------------
+CAMERA
+camera pos: |35, 20, 0|
+camera rot: /-10, 30/
+----------------------
+OBJECT
+#SPHERE
+obj pos: |0, -5, 60|
+rad: [8]
+rgb: |255, 5, 88|
+rot: <0, 0, 0>
+----------------------
+#CYLINDER
+obj pos: |-10, 0, 60|
+rad: [5]
+rgb: |155, 255, 15|
+rot: <10, 0, -30>
+--------------------
+#CONE
+obj pos: |10, -7, 60|
+rad: [45]
+rgb: |240, 252, 12|
+rot: <0, 0, 25>
+--------------------
+#PLANE
+obj pos: |0, -11, 60|
+rad: [0]
+rgb: |33, 33, 30|
+rot: <0, 0, 0>
+norm: {0, 1, 0}
+--------------------
+#PLANE
+obj pos: |0, 0, 110|
+rad: [0]
+rgb: |109, 165, 255|
+rot: <0, 0, 0>
+norm: {0, 0, -1}
+--------------------
 ```
