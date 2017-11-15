@@ -1,6 +1,7 @@
 # RT @ UNIT Factory
 
-<img align="right"  src="https://github.com/kuzmykvadim/42/blob/master/RTv1/img/Screen Shot 2017-11-15 at 9.22.02 PM.png"  />
+<img align="right"  src="https://github.com/kuzmykvadim/42/blob/master/RTv1/img/Screen Shot 2017-11-15 at 9.22.02 PM.png"  
+width="40%" height="500px" />
 
 RT (Ray tracer) is a mile-stone project in the 3D graphics curriculum of <a href="http://www.unit.ua" target="_blank" >UNIT Factory</a> [(42 School)](https://en.wikipedia.org/wiki/42_(school)).
 
