@@ -80,8 +80,8 @@ norm: {0, 0, -1}
 --------------------
 ```
 <div>
-<img align="right"  src="https://github.com/kuzmykvadim/42/blob/master/RTv1/img/Screen Shot 2017-11-15 at 9.49.16 PM.png"  
+<img align="right"  src="https://github.com/kuzmykvadim/42/blob/master/Wolf3d/img/Screen Shot 2017-11-15 at 9.49.16 PM.png"  
 width="47%" height="500px" />
-<img align="left"  src="https://github.com/kuzmykvadim/42/blob/master/RTv1/img/Screen Shot 2017-11-15 at 9.51.45 PM.png"  
+<img align="left"  src="https://github.com/kuzmykvadim/42/blob/master/Wolf3d/img/Screen Shot 2017-11-15 at 9.51.45 PM.png"  
 width="47%" height="500px" />
 </div>
